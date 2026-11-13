@@ -1,0 +1,5 @@
+{
+  "name": "Door Status Card",
+  "filename": "door_status_ha_card.js",
+  "homeassistant": "2024.1.0"
+}
