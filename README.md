@@ -1,5 +1,17 @@
 # Door Status Card
 
+![Door Status Card preview](docs/images/preview.png)
+
+*Rendered from the card code with example data (no real Home Assistant). Left: layout `hoch`, right: layout `auto` (wide).*
+
+<details><summary>More screenshots</summary>
+
+**Somebody is ringing**
+
+![Door Status Card – Somebody is ringing](docs/images/ringing.png)
+
+</details>
+
 Lovelace card (`custom:home-twin-tuerstatus-card`) for a hallway tablet showing two doors:
 
 - **Apartment door** (smart lock, e.g. Nuki): locked / unlocked / open, battery (level, critical, charging), last action with the person who did it (from the logbook: HA user → person, script/automation → its name, otherwise "at the lock / app"), door contact open/closed + "open since" (turns red after a configurable time).
